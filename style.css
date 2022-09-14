@@ -1,0 +1,130 @@
+body {
+    background-color: white;
+    margin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header > img {
+    width: 200px;
+}
+
+nav {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.menu-items {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px 15px;
+}
+
+section {
+    background-image: url(./images/landing.jpg);
+    background-repeat: round;
+    width: auto;
+    height: 95vh;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container > h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: lighter;
+    margin-top: 20%;
+}
+
+.banner-container > p {
+    color: white;
+    font-size: 24px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.intro-section > h2 {
+    border-bottom: 3px solid #1DB954;
+    padding-bottom: 3px;
+    margin-right: 5%;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.intro-items {
+    text-align: center;
+    width: auto;
+}
+
+.intro-items > img {
+    width: 100px;
+}
+
+.intro-items > h3 {
+    color: #1DB954;
+}
+
+.kanye-section {
+    display: flex;
+    align-items: center;
+    margin: auto 1%;
+    height: 500px;
+    background-color: #1DB954;
+    color: white;
+}
+
+/* .kanye-section > h1 { 
+    width: 100%;
+    padding: 0;
+} */
+
+.kanye-section > img {
+    margin: 0 10%;
+    width: 120px;
+    height: 120px;
+}
+
+.kanye-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.kanye-container > h2 {
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+    width: max-content;
+}
+
+.kanye-items {
+    width: 250px;
+    text-align: left;
+}
+
